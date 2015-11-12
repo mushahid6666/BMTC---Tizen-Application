@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://yourdomain/BMTCBusInfo" version="1.0.0" viewmodes="maximized">
+    <access origin="http://bbus.in" subdomains="true"/>
+    <tizen:allow-navigation>alloq</tizen:allow-navigation>
+    <tizen:application id="NuePYqJqUk.BMTCBusInfo" package="NuePYqJqUk" required_version="2.1"/>
+    <author email="mushahid6666@gmail.com">Mushahid</author>
+    <content src="index.html"/>
+    <tizen:content-security-policy>bbus</tizen:content-security-policy>
+    <tizen:content-security-policy-report-only>bus</tizen:content-security-policy-report-only>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.jpg"/>
+    <name>BMTCBusInfo</name>
+    <tizen:profile name="mobile"/>
+    <tizen:setting screen-orientation="portrait" context-menu="enable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+</widget>
